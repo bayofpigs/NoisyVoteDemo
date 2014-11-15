@@ -1,0 +1,16 @@
+{
+  "name": "frontend_demo",
+  "version": "0.0.1",
+  "description": "Demo of a noisy voting application",
+  "scripts": {
+    "test": "node simpletest.js"
+  },
+  "devDependencies": {
+    "browserify": "~6.2.0"
+  },
+  "author": "Mike Zhang",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "domready": "~1.0.7"
+  }
+}

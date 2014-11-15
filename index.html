@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Front end exercise</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <div id="content">
+      <h1>
+        Noisy choice demo
+      </h1>
+      
+      <div id="input">
+        <p> 
+          <em>Instructions:</em> Enter the first choice option and the second choice option.
+          These choices will flash upon the screen at a random pace with mean defined in
+          Average Switching Pace. Pressing enter when a specific choice appears will select
+          that option. Check the box next to "Repeated experiments" to repeat the experiment
+          50 times and report choice statistics.
+        </p>
+
+        <div class="form-control">
+          <label>First Choice: </label>
+          <input type="text" class="first">
+        </div>
+
+        <div class="form-control">
+          <label>Second Choice: </label>
+          <input type="text" class="second">
+        </div>
+
+        <br>
+
+        <div class="form-control">
+          <label>Average switching pace: </label>
+          <input type="text" class="pace">
+        </div>
+        
+        <br>
+
+        <div class="form-control">
+          <label>Repeated experiments?</label>
+          <input class="cont" type="checkbox">
+        </div>
+        
+        </br>
+        <button class="submit">Begin</button>
+      </div>
+    </div>
+
+    <script src="src/app.js"></script>
+  </body>
+</html>
